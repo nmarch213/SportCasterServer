@@ -1,0 +1,27 @@
+{
+  "name": "sportcasterserver",
+  "version": "1.0.0",
+  "description": "A server for the SportCaster Web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmarch213/SportCasterServer.git"
+  },
+  "author": "Nicholas March",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmarch213/SportCasterServer/issues"
+  },
+  "homepage": "https://github.com/nmarch213/SportCasterServer#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0"
+  }
+}
